@@ -26,7 +26,7 @@ Usage
 To start the server, run the following command:
 
 ```bash
-./target/release/dynamic-pricing-server
+./target/release/surge-pricing
 ```
 
 This will start the server on port 12345 of your localhost.
@@ -37,7 +37,7 @@ To calculate the price of an item, send a GET request to the following endpoint:
 http://localhost:12345/calculate-surge/with-this-supply/<supply>/and-this-demand/<demand>
 ```
 
-Replace <supply> and <demand> with the appropriate values for the item you want to price. The server will respond with a JSON object containing the calculated price for the item.
+Replace `<supply>` and `<demand>` with the appropriate values for the item you want to price. The server will respond with a JSON object containing the calculated price for the item.
 
 ## Technical Details
 
